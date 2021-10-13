@@ -10,7 +10,7 @@ gem 'sqlite3', '~> 1.4'
 
 gem 'delayed_job'
 gem 'delayed_job_active_record'
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', :git => 'https://github.com/newrelic/newrelic-ruby-agent.git', :branch => 'bugfix/delayed-job-deadlocks'
 
 group :development do
   gem 'listen', '~> 3.3'

@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/newrelic/newrelic-ruby-agent.git
+  revision: 07ee4cc80f4854f109659f019fcb78b20c25976b
+  branch: bugfix/delayed-job-deadlocks
+  specs:
+    newrelic_rpm (8.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -146,7 +153,7 @@ DEPENDENCIES
   delayed_job
   delayed_job_active_record
   listen (~> 3.3)
-  newrelic_rpm
+  newrelic_rpm!
   rails (~> 6.1.4, >= 6.1.4.1)
   sqlite3 (~> 1.4)
 
